@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Benson App';
+  courses = [];
   post = {
     title:"Hello there buddy!!",
     isFavorite: true

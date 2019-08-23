@@ -2,7 +2,8 @@
 <bootstrap-panel>
     <div class="heading">Heading</div>
     <div class="body">
-        <h1>Title</h1>
-        <p>Some Content here...</p>
+        <h2>Udemy Courses</h2>
+        <div *ngIf="courses.length>0" class="list-of-courses">List of courses...</div>
+        <div *ngIf="courses.length == 0" class="no-courses">No courses available...</div>
     </div>
 </bootstrap-panel>
